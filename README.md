@@ -1,56 +1,52 @@
-# Welcome to your Expo app 👋
+# Mobile Task Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+Mobile Task Manager is a simple mobile application designed to help users create, manage, and track their daily tasks. The application allows users to add tasks, mark tasks as completed, and keep track of their progress through a simple mobile interface.
 
-1. Install dependencies
+To use the app, the user can enter a task and add it to the task list. Each task can then be marked as completed when it is finished. The application provides immediate feedback when the user interacts with the tasks.
 
-   ```bash
-   npm install
-   ```
+I created this application to improve my skills in mobile application development and to gain practical experience building an interactive application with React Native. I also wanted to learn how mobile applications manage user input, application state, and persistent data.
 
-2. Start the app
+The application is designed to eventually save tasks locally so that the user's tasks remain available even after closing and reopening the application.
 
-   ```bash
-   npx expo start
-   ```
+### Software Demo Video
 
-In the output, you'll find options to open the app in a
+[Software Demo Video](https://byupathwayworldwideprod-my.sharepoint.com/:v:/g/personal/engnama_byupathway_edu/IQB4_HsVcGR-S4XASPOOgGEgAXKICS_Q4x14Ut3GEUYht3w?e=yw9PEJ)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Development Environment
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The application was developed using:
 
-## Get a fresh project
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* Android Studio
+* Android Emulator
+* Visual Studio Code
+* Git and GitHub
 
-When you're ready, run:
+The application was written in **TypeScript** using **React Native** and **Expo**. React Native provides the mobile user interface and allows the application to run on Android, while Expo provides development tools and services that make building and testing the application easier.
 
-```bash
-npm run reset-project
-```
+Android Studio and its Android Emulator were used to test the application on a virtual Android device.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Useful Websites
 
-### Other setup steps
+* [React Native](https://reactnative.dev/)
+* [Expo](https://expo.dev/)
+* [Expo Documentation](https://docs.expo.dev/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Android Developers](https://developer.android.com/)
+* [React Documentation](https://react.dev/)
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## Future Work
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Add persistent local storage so tasks remain available after closing the application.
+* Add the ability to edit existing tasks.
+* Add the ability to delete tasks.
+* Add task categories or priorities.
+* Add a second screen for viewing completed tasks.
+* Improve the visual design and user experience.
+* Add task filtering and sorting.
+* Add optional notifications for tasks and deadlines.
